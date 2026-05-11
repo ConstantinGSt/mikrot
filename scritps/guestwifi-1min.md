@@ -1,3 +1,5 @@
+/ip/firewall/filter/add chain=forward src-address-list=GuestBanList action=drop comment="Block Banned Guests" disabled=no
+
 :local targetSSID "GuestWiFi"
 :local maxUptime 60
 :local banListName "GuestBanList"
